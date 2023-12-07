@@ -541,6 +541,9 @@ html{
    .Review{
        margin-left: 20px;
    }
+   .Review h1{
+       font-size: 20px;
+   }
 }
 }
 }
