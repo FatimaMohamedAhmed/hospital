@@ -1,0 +1,460 @@
+*{
+    font-family: 'poppins' , sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s ease-out;
+    text-decoration: none;
+    
+}
+body{
+    /* background-image: url("https://th.bing.com/th/id/OIP.5BCfNKphNpzsO-8jzMjVkgHaE7?rs=1&pid=ImgDetMain");
+    
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 8rem;
+        padding-top: 40px; */
+        background-color: #F3EFE7;
+}
+:root{
+    box-shadow: .5rem .5rem 0 rgba(0, 0, 0, 0.01);
+    text-shadow: .4rem .4rem 0 rgba(0, 0, 0, 0.01);
+    /* border: 2rem solid green; */
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+.header{
+    padding: 2rem 9%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 .5rem rgba(0,0,0, .1);
+    background-color: #3FE60F;
+    color: white;
+     
+}
+.header .logo{
+    font-size: 2.5rem;
+    color: white;
+}
+.header .logo i{
+    color: white;
+}
+
+.header .navbar a{
+    color: white;
+    font-size: 1.7rem;
+    margin-left: 2rem;
+}
+.header .navbar a:hover{
+    color: #830808;
+}
+#menubtn{
+    font-size: 2rem;
+    border-radius: .5rem;
+    background: #eee;
+    color: green;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+#clsbtn{
+    font-size: 2rem;
+    border-radius: .5rem;
+    background: #eee;
+    color: green;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+.section{
+    padding: 2rem 9%;
+   
+   
+}
+.Home{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-top: 10rem;
+    /* background-image: url("https://th.bing.com/th/id/R.db09990c2739999e6429385903e587cb?rik=iRmSTZWIDGlLqw&riu=http%3a%2f%2fwww.hdwallpaperslife.com%2fwp-content%2fuploads%2f2018%2f05%2fgreen_gradient_blur.jpg&ehk=KHVcnpoOGR%2f9A11GOM1CkIMVljR1Kpu9hGCCILFwtGo%3d&risl=&pid=ImgRaw&r=0");
+    
+         background-repeat: no-repeat;
+        background-size: cover; */
+        /* padding-bottom: 8rem;  */
+        /* filter: blur(1px); */
+
+}
+.Home .img{
+    flex: 1 1 45rem;
+}
+.Home .img img{
+    width: 90%;
+}
+.Home .content{
+    flex: 1 1 45rem;
+}
+.Home .content h3{
+    font-size: 4.5rem;
+    color: black;
+    line-height: 1.8;
+    text-shadow:  0 .5rem rgba(0,0,0, .1);
+}
+.Home .content p{
+    font-size: 1.7rem;
+    color: rgba(0, 0, 0, 0.76);
+    line-height: 1.8;
+    padding: 1rem 0;
+    
+}
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: .5rem;
+    padding-left: 1rem;
+    border-radius: .5rem;
+    color: green;
+    box-shadow:  0 0 5px black, 0 0 25px black;
+    cursor: pointer;
+    font-size: 1.7rem; 
+    /* position: relative;
+    border: 2px solid #3eff37;
+    background: transparent;
+    cursor: pointer;
+    overflow: hidden; */
+
+}
+
+.btn span{
+    padding: .7rem 1rem;
+    border-radius: .5rem;
+    background: green;
+    margin-left: .5rem;
+    color: #fff;
+    /* position: absolute;
+    z-index: -1;
+    transition: 0.5s;
+    text-transform: uppercase; */
+}
+.btn:hover{
+    background: green;
+    color: #fff;
+    
+    /* box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan; */
+}
+.btn:hover span{
+    /* background: green; */
+    /* background-color: #fff; */
+    margin-left: 1rem;
+}
+.Services{
+    /* background-image: url("https://th.bing.com/th/id/OIP.5BCfNKphNpzsO-8jzMjVkgHaE7?rs=1&pid=ImgDetMain");
+    
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 8rem;
+        padding-top: 40px; */
+ 
+}
+.Services .box-container{
+   /* display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap: 2rem; 
+   /* background-image: url("https://th.bing.com/th/id/OIP.5BCfNKphNpzsO-8jzMjVkgHaE7?rs=1&pid=ImgDetMain");
+   
+       background-repeat: no-repeat;
+       background-size: cover;
+       padding-bottom: 8rem;
+       padding-top: 40px; */
+       max-width: 1200px;
+       margin: 50px auto;
+       display: flex;
+       flex-direction: columns;
+       flex-wrap: wrap;
+       justify-content: center;
+       gap: 50px;
+       padding: 10px;
+
+}
+.Services .box-container .box{
+    background: #fff;
+    border-radius: .5rem;
+    box-shadow:  0px 7px 10px #9F9F9F;
+    padding: 2.5rem;
+    border-top: 2px solid #1F023C;
+    border-bottom:2px solid #1F023C;
+    border-right: 2px solid #1F023C;
+    border-left: 2px solid #1F023C;
+    animation: 3s linear 1s infinite;
+   
+}
+.box{
+    transition: 0.5s ease-in-out; 
+}
+.box:hover {
+  transform: translateY(5px); 
+   background-color: #91F991;
+  color: white;
+  
+}
+.heading{
+    text-align: center;
+    padding-bottom: 2rem;
+    text-shadow: rgba(29, 30, 28, 0.50);
+    text-transform: uppercase;
+    color: black;
+    font-size: 5rem;
+    letter-spacing: .4rem;
+    padding-top: 100px;
+}
+.heading span{
+    text-transform: uppercase;
+    color: green;
+  
+}
+.Services .box-container .box i{
+    color: green;
+    font-size:5rem;
+    padding-bottom: 0.5rem;
+}
+.Services .box-container .box h3{
+    font-size: 2.5rem;
+    color: black;
+    padding: 1rem 0;
+}
+.Services .box-container .box p{
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, 0.72);
+    /* transform: perspective(600px) relative(180deg); */
+ 
+}
+   .About .row{
+       display: flex;
+       align-items: center;
+       flex-wrap: wrap;
+       gap:2rem;
+       /* background-image: url("https://thumbs.dreamstime.com/z/blur-abstract-background-work-doctor-dentist-blurry-view-hospital-clinical-room-space-equipment-instrument-77957431.jpg");
+       
+           background-repeat: no-repeat;
+           background-size: cover;
+            */
+   }
+   /* .About{
+    background-image: url("https://th.bing.com/th/id/OIP.Ta9gwJdNXL9tYdk7zOUVZQHaHa?w=500&h=500&rs=1&pid=ImgDetMain");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 12rem;
+        /* padding-top: 40px; */
+        
+ 
+        
+   /* } */ 
+   .About  .row .img{
+       flex: 1 1 45rem;
+    
+   }
+   .About  .row .img img{
+       width: 80%;
+       border-radius: 250px;
+   }
+   .About .row .content{
+       flex: 1 1 45rem;
+   }
+   .About .row .content h3{
+       color: black;
+       text-shadow: a(29, 30, 28, 0.50);
+       font-size: 4rem;
+       line-height: 1.8;
+   }
+   .About .row .content p{
+    color: rgba(0, 0, 0, 0.68);
+    text-shadow: a(29, 30, 28, 0.50);
+    font-size: 1.5rem;
+    line-height: 1.8;
+    padding: 1rem 0;
+   }
+    .Doctots .box-container{
+         /* display: grid;  */
+         /* grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));  */
+        gap: 2rem; 
+        /* grid-template-columns: 200px 200px 200px 200px 200px; */
+         max-width: 1200px;
+        margin: 50px auto;
+        display: flex;
+        /* flex-direction: row; */
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px; 
+    }
+    .Doctots .box-container .box{
+        text-align: center;
+        /* background: #fff; */
+        border-radius: .5rem;
+        border-color: #F2F21F;
+        box-shadow:  0px 7px 10px #9F9F9F;
+        padding: 2rem;
+    }
+    .Doctots .box-container .box img{
+        height: 15rem;
+        border: 2px solid green;
+        border-radius: 8px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .Doctots .box-container .box h3{
+        color: black;
+        font-size: 2.5rem;
+
+    }
+    .Doctots .box-container .box span{
+        color: green;
+        font-size: 1.5rem;
+    }
+    .Doctots .box-container .box .share{
+        padding-top: 2rem;
+
+    }
+    .Doctots .box-container .box .share a{
+        height: 5rem;
+        width: 5rem;
+        line-height: 4.5rem;
+        font-size: 2.8rem;
+        color: green;
+        border-radius: .5rem;
+        margin: .3rem;
+        /* border: 10px solid green; */
+    }
+    .Doctots .box-container .box .share a:hover{
+        border: 2px  solid green;
+        color: white;
+    }
+    .box h4{
+        /* color: red; */
+        /* font-size: 8px; */
+    }
+    .footer .box-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+        gap: 2rem;
+    }
+    .footer .box-container .box h3{
+        font-size: 2.5rem;
+        color: black;
+        padding: 1rem 0;
+    }
+    .footer .box-container .box a{
+        display: block;
+        font-size: 1.5rem;
+        color: rgba(0, 0, 0, 0.49);
+        padding: 1rem 0;
+    }
+    .footer .box-container .box a i{
+        padding-right: .5rem;
+        color: green;
+    }
+    .footer .box-container .box a:hover i{
+        padding-right: 2rem;
+    }
+    .footer .credit{
+        padding: 1rem;
+        padding-top: 2rem;
+        margin-top: 2rem;
+        text-align: center;
+        font-size: 2rem;
+        border-top: .1rem solid rgba(0, 0, 0, 0.02);
+        
+    }
+    .footer .credit span{
+        color: green;
+
+    }
+    
+
+    @media (max-width:991px){
+    html{
+        font-size: 55%;
+      
+    }
+    .header{
+        padding: 2rem;
+    }
+    .section{
+        padding: 2rem 9%;
+       
+    }
+  
+   
+@media (max-width:768px){
+    #menubtn{
+        display: block;
+    }
+    #clsbtn{
+        display: block;
+    }
+    .header .navbar{
+        position: absolute;
+        top: 115%;
+        right: 2rem;
+        border-radius: .5rem;
+        box-shadow: 0 .5rem rgba(0,0,0, .1);
+        width: 30rem;
+        border-color: green;
+        background: #060647;
+        /* background: #fff; */
+        /* transform: scale(0); */
+        /* opacity: 0; */
+        /* transform-origin: top right ; */
+        /* transition: none; */
+    }
+    /* .header .navbar.active{
+        transform: scale(1);
+        opacity: 0;
+        transition: .2s ease-out;
+    }  */
+    .header .navbar a{
+        font-size: 2rem;
+        display: block;
+        margin: 2.5rem;
+    
+}
+@media (max-width:450px){
+    html{
+        font-size: 50%;
+      
+    }
+   .Home{
+       margin-left: 40px;
+   }
+   .Services{
+       margin-left: 20px;
+       font-size: 20px;
+   }
+   .Services h1 {
+       font-size: 20px;
+   }
+   .About{
+       margin-left: 20px;
+   }
+   .footer{
+    margin-left: 20px;
+   }
+   .credit{
+       font-size: 10px;
+   }
+}
+}
+}
