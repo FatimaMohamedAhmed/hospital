@@ -30,6 +30,21 @@ html{
     scroll-behavior: smooth;
     scroll-padding-top: 7rem;
 }
+.Doctots{
+    animation: fadeInRight 3s ease infinite;
+}
+@keyframes fadeInRight{
+    0%{
+        capacity: 0;
+        transform: translateY(50px);
+    }
+    100%{
+        capacity: 1;
+        transform: translateY(0px);
+    }
+
+}
+
 .header{
     padding: 2rem 9%;
     position: fixed;
@@ -90,12 +105,15 @@ html{
     flex-wrap: wrap;
     gap: 1.5rem;
     padding-top: 10rem;
-    /* background-image: url("https://th.bing.com/th/id/R.db09990c2739999e6429385903e587cb?rik=iRmSTZWIDGlLqw&riu=http%3a%2f%2fwww.hdwallpaperslife.com%2fwp-content%2fuploads%2f2018%2f05%2fgreen_gradient_blur.jpg&ehk=KHVcnpoOGR%2f9A11GOM1CkIMVljR1Kpu9hGCCILFwtGo%3d&risl=&pid=ImgRaw&r=0");
+    /* background-image: url("kc/hosimg.jpg"); */
+    /* background-image: url("https://th.bing.com/th/id/R.db09990c2739999e6429385903e587cb?rik=iRmSTZWIDGlLqw&riu=http%3a%2f%2fwww.hdwallpaperslife.com%2fwp-content%2fuploads%2f2018%2f05%2fgreen_gradient_blur.jpg&ehk=KHVcnpoOGR%2f9A11GOM1CkIMVljR1Kpu9hGCCILFwtGo%3d&risl=&pid=ImgRaw&r=0"); */
     
-         background-repeat: no-repeat;
-        background-size: cover; */
-        /* padding-bottom: 8rem;  */
-        /* filter: blur(1px); */
+         /* background-repeat: no-repeat; 
+        background-size: cover; 
+        padding-bottom: 8rem; 
+        width: 90%;
+        height: 50%; */
+        /* /* filter: blur(1px); */
 
 }
 .Home .img{
@@ -360,6 +378,7 @@ html{
         border-radius: 12px;
         border:none;
         padding: 30px 50px;
+        
     }
     .Review .box-container{
         display: grid;
@@ -486,7 +505,8 @@ html{
         display: block;
     }
     #clsbtn{
-        display: block;
+        display: none;
+         
     }
     .header .navbar{
         position: absolute;
@@ -497,11 +517,11 @@ html{
         width: 30rem;
         border-color: green;
         background: #060647;
-        /* background: #fff; */
-        /* transform: scale(0); */
-        /* opacity: 0; */
-        /* transform-origin: top right ; */
-        /* transition: none; */
+        /* background: #fff; 
+         transform: scale(0); 
+         opacity: 0; 
+         transform-origin: top right ; 
+        transition: none; */
     }
     /* .header .navbar.active{
         transform: scale(1);
@@ -510,11 +530,22 @@ html{
     }  */
     .header .navbar a{
         font-size: 2rem;
-        display: block;
+        /* display: block; */
         margin: 2.5rem;
+        /* display: none; */
+        
     
 }
+.navbar {
+    display: none;
+}
+a{
+    display: block;
+}
 @media (max-width:450px){
+    /* body{
+        background-color: #04041F;
+    } */
     html{
         font-size: 50%;
       
@@ -523,7 +554,7 @@ html{
        margin-left: 40px;
    }
    .Services{
-       margin-left: 20px;
+       /* margin-left: 20px; */
        font-size: 20px;
    }
    .Services h1 {
@@ -533,13 +564,14 @@ html{
        margin-left: 20px;
    }
    .footer{
-    margin-left: 20px;
+    /* margin-left: 20px; */
+    /* padding: 6px; */
    }
    .credit{
        font-size: 10px;
    }
    .Review{
-       margin-left: 20px;
+       /* margin-left: 20px; */
    }
    .Review h1{
        font-size: 20px;
