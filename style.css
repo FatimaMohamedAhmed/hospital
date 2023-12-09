@@ -30,9 +30,10 @@ html{
     scroll-behavior: smooth;
     scroll-padding-top: 7rem;
 }
-.Doctots{
+.content  {
     animation: fadeInRight 3s ease infinite;
 }
+
 @keyframes fadeInRight{
     0%{
         capacity: 0;
@@ -106,13 +107,12 @@ html{
     gap: 1.5rem;
     padding-top: 10rem;
     /* background-image: url("kc/hosimg.jpg"); */
-    /* background-image: url("https://th.bing.com/th/id/R.db09990c2739999e6429385903e587cb?rik=iRmSTZWIDGlLqw&riu=http%3a%2f%2fwww.hdwallpaperslife.com%2fwp-content%2fuploads%2f2018%2f05%2fgreen_gradient_blur.jpg&ehk=KHVcnpoOGR%2f9A11GOM1CkIMVljR1Kpu9hGCCILFwtGo%3d&risl=&pid=ImgRaw&r=0"); */
-    
-         /* background-repeat: no-repeat; 
+    background-image: url("https://th.bing.com/th/id/R.df4e91513e203d18bb1c7aad2af2c1ba?rik=m%2f%2b3ZNf12bWFeA&pid=ImgRaw&r=0");
+          background-repeat: no-repeat; 
         background-size: cover; 
-        padding-bottom: 8rem; 
-        width: 90%;
-        height: 50%; */
+        padding-bottom:40rem; 
+        /* width: 100%;
+        height: 100%;  */
         /* /* filter: blur(1px); */
 
 }
@@ -120,22 +120,26 @@ html{
     flex: 1 1 45rem;
 }
 .Home .img img{
-    width: 90%;
+    width: 100%;
+    height: 100%;
 }
 .Home .content{
     flex: 1 1 45rem;
 }
 .Home .content h3{
-    font-size: 4.5rem;
-    color: black;
+    font-size: 7.5rem;
+    /* color: black; */
+    color: white;
     line-height: 1.8;
     text-shadow:  0 .5rem rgba(0,0,0, .1);
+    padding-top: 50px;
 }
 .Home .content p{
-    font-size: 1.7rem;
-    color: rgba(0, 0, 0, 0.76);
+    font-size: 2.7rem;
+    /* color: rgba(0, 0, 0, 0.76); */
     line-height: 1.8;
-    padding: 1rem 0;
+    padding: 2rem 0;
+    color: white;
     
 }
 .btn{
@@ -144,10 +148,11 @@ html{
     padding: .5rem;
     padding-left: 1rem;
     border-radius: .5rem;
-    color: green;
+    color: white;
     box-shadow:  0 0 5px black, 0 0 25px black;
     cursor: pointer;
     font-size: 1.7rem; 
+    background-color: green;
     /* position: relative;
     border: 2px solid #3eff37;
     background: transparent;
@@ -168,7 +173,7 @@ html{
     text-transform: uppercase; */
 }
 .btn:hover{
-    background: green;
+    background: black;
     color: #fff;
     
     /* box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan; */
@@ -177,6 +182,8 @@ html{
     /* background: green; */
     /* background-color: #fff; */
     margin-left: 1rem;
+    color: white;
+    background: black;
 }
 .Services{
     /* background-image: url("https://th.bing.com/th/id/OIP.5BCfNKphNpzsO-8jzMjVkgHaE7?rs=1&pid=ImgDetMain");
@@ -440,7 +447,7 @@ html{
     .footer{
         background-color: #04042E;
         padding: 10px;
-        margin-top: 20px;
+        margin-top: 10px;
     }
     .footer .box-container{
         display: grid;
