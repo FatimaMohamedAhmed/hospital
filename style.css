@@ -485,7 +485,7 @@ html{
         color: white;
     }
     
-
+   
     @media (max-width:991px){
     html{
         font-size: 55%;
@@ -575,6 +575,9 @@ a{
    }
    .Review h1{
        font-size: 20px;
+   }
+   .Photos img{
+     margin-left:  -20px;
    }
 }
 }
