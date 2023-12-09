@@ -130,14 +130,14 @@ html{
     font-size: 7.5rem;
     /* color: black; */
     color: white;
-    line-height: 1.8;
+    line-height: 1.5;
     text-shadow:  0 .5rem rgba(0,0,0, .1);
     padding-top: 50px;
 }
 .Home .content p{
     font-size: 2.7rem;
     /* color: rgba(0, 0, 0, 0.76); */
-    line-height: 1.8;
+    line-height: 1.5;
     padding: 2rem 0;
     color: white;
     
@@ -558,7 +558,16 @@ a{
       
     }
    .Home{
-       margin-left: 40px;
+       margin-left: -50px;
+   }
+   .Home .content h3{
+       margin-left: 60px;
+   }
+   .Home .content p{
+       margin-left: 70px;
+   }
+   .btn{
+       margin-left: 80px;
    }
    .Services{
        /* margin-left: 20px; */
@@ -568,7 +577,7 @@ a{
        font-size: 20px;
    }
    .About{
-       margin-left: 20px;
+       margin-left: 8px;
    }
    .footer{
     /* margin-left: 20px; */
